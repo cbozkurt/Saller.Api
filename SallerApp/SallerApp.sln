@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SallerApp.Api", "src\SallerApp.Api\SallerApp.Api.csproj", "{1471D43C-D422-449F-9576-6F7617CF756E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SallerApp.Commands", "src\SallerApp.Commands\SallerApp.Commands.csproj", "{BF2F2781-4635-48FD-8F38-3D774A60748C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SallerApp.Domain", "src\SallerApp.Domain\SallerApp.Domain.csproj", "{6AAF1C8A-211A-4036-B860-A85F58722082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SallerApp.Queries", "src\SallerApp.Queries\SallerApp.Queries.csproj", "{13007BFC-5A59-4DFB-8C5B-2A3A84320E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SallerApp.Messages", "src\SallerApp.Messages\SallerApp.Messages.csproj", "{CAA99FBA-4943-497D-BD9A-21ABD9AD00CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SallerApp.Persistence", "src\SallerApp.Persistence\SallerApp.Persistence.csproj", "{6BEC6B91-2EDA-42D4-BAA5-13F83FA6B211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1471D43C-D422-449F-9576-6F7617CF756E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1471D43C-D422-449F-9576-6F7617CF756E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1471D43C-D422-449F-9576-6F7617CF756E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1471D43C-D422-449F-9576-6F7617CF756E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2F2781-4635-48FD-8F38-3D774A60748C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2F2781-4635-48FD-8F38-3D774A60748C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2F2781-4635-48FD-8F38-3D774A60748C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2F2781-4635-48FD-8F38-3D774A60748C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAF1C8A-211A-4036-B860-A85F58722082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAF1C8A-211A-4036-B860-A85F58722082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAF1C8A-211A-4036-B860-A85F58722082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAF1C8A-211A-4036-B860-A85F58722082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13007BFC-5A59-4DFB-8C5B-2A3A84320E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13007BFC-5A59-4DFB-8C5B-2A3A84320E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13007BFC-5A59-4DFB-8C5B-2A3A84320E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13007BFC-5A59-4DFB-8C5B-2A3A84320E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA99FBA-4943-497D-BD9A-21ABD9AD00CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA99FBA-4943-497D-BD9A-21ABD9AD00CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA99FBA-4943-497D-BD9A-21ABD9AD00CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA99FBA-4943-497D-BD9A-21ABD9AD00CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEC6B91-2EDA-42D4-BAA5-13F83FA6B211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEC6B91-2EDA-42D4-BAA5-13F83FA6B211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEC6B91-2EDA-42D4-BAA5-13F83FA6B211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEC6B91-2EDA-42D4-BAA5-13F83FA6B211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ED580C1-1A13-4589-8897-3AC4FAB3029E}
+	EndGlobalSection
+EndGlobal
